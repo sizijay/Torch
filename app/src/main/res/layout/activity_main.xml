@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/radial_background"
+    tools:context=".MainActivity" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/btnSwitch"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/switch_off"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="නිවිලා තියෙන්නේ\nOFF\n☹ "
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/attrib"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="©SisiraJaywardena✌"
+        android:layout_gravity="right"
+        android:textColor="#FF0000"
+        android:textSize="18sp"/>
+</LinearLayout>
